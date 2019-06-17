@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\CsiUsers;
+
 use Illuminate\Http\Request;
 
 class CsiUsersController extends Controller

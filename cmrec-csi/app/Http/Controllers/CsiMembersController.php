@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\CsiMembers;
+
 use Illuminate\Http\Request;
 
 class CsiMembersController extends Controller

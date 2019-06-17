@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\PostsMedia;
+
 use Illuminate\Http\Request;
 
 class PostsMediaController extends Controller
