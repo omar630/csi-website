@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.head')
 <section id="logo">
              <h1 style="color:white;text-align:center;padding-top:10px;">CMREC-CSI</h1>    
 </section>
