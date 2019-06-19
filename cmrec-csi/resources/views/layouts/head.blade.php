@@ -37,6 +37,7 @@
         <h1 style="color:white;text-align:center;padding-top:10px;">CMREC-CSI</h1>
     </section>
     @include('navbar')
+    @include('auth/login')
     @yield('content')
     @include('layouts.footer')
 </body>

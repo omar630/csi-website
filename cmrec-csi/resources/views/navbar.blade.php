@@ -34,9 +34,10 @@
              <!-- Authentication Links -->
              @guest
              <li class="nav-item dropdown">
-                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }} <i
+                 <a id="showLogin" class="nav-link" data-toggle="modal" data-target="#modalLoginAvatar" href="{{ route('login') }}">{{ __('Login') }} <i
                          class="fas fa-sign-in-alt"></i></a>
              </li>
+            
              @if (Route::has('register'))
              <li class="nav-item">
                  <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
