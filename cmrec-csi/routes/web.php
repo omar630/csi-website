@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/',"pagescontroller@index" );
-Route::get('/news',"pagescontroller@news");
-Route::get('/login',"pagescontroller@login");
+Route::get('/',"PagesController@index" );
+Route::get('/news',"PagesController@news");
+Route::get('/login',"PagesController@login");
