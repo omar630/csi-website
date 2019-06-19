@@ -9,7 +9,7 @@
     <div class="collapse navbar-collapse" id="csimenu">
         <ul class="navbar-nav mr-auto" id="ulmenu">
             <li class="nav-item dropdown1" style="margin-left:auto;margin-right:auto; max-width:150px;">
-                <a class="dropbtn btn-block" href="###"><i class="fa fa-sticky-note-o" aria-hidden="true"></i> Home</a>
+                <a class="dropbtn btn-block" href="{{url('/')}}"><i class="fa fa-sticky-note-o" aria-hidden="true"></i> Home</a>
                 <ul></ul>
             </li>
             <li class="nav-item dropdown1" style="margin-left:auto;margin-right:auto; max-width:150px;">
@@ -18,26 +18,26 @@
                 <ul></ul>
             </li>
             <li class="nav-item dropdown1" style="margin-left:auto;margin-right:auto;max-width:150px;">
-                <a class="dropbtn btn-block" href="####"><i class="fa fa-globe" aria-hidden="true"></i> About us </a>
+                <a class="dropbtn btn-block" href="{{url('/aboutus')}}"><i class="fa fa-globe" aria-hidden="true"></i> About us </a>
                 <ul></ul>
             </li>
             <li class="nav-item dropdown1" style="margin-left:auto;margin-right:auto; max-width:180px;">
-                <a class="dropbtn btn-block" href="###"><i class="fa fa-user" aria-hidden="true"></i> Member's
+                <a class="dropbtn btn-block" href="{{url('/members-exclusive')}}"><i class="fa fa-user" aria-hidden="true"></i> Member's
                     Exclusive</a>
                 <ul></ul>
             </li>
             <li class="nav-item dropdown1" style="margin-left:auto;margin-right:auto; min-width:200px;max-width:220px;">
-                <a class="dropbtn btn-block" href="####"><i class="fa fa-envelope" aria-hidden="true"></i> Contact
+                <a class="dropbtn btn-block" href="{{url('/contact-us')}}"><i class="fa fa-envelope" aria-hidden="true"></i> Contact
                     us</a>
                 <ul></ul>
             </li>
             <li class="nav-item dropdown1" style="margin-left:auto;margin-right:auto; max-width:150px;">
-                <a class="dropbtn btn-block" href="####"><i class="fa fa-sticky-note-o" aria-hidden="true"></i>
+                <a class="dropbtn btn-block" href="{{url('/posts')}}"><i class="fa fa-sticky-note-o" aria-hidden="true"></i>
                     Posts</a>
                 <ul></ul>
             </li>
             <li class="nav-item dropdown1" style="margin-left:auto;margin-right:auto; max-width:150px;">
-                <a class="dropbtn btn-block" href="####"> <i class="fa fa-sign-in" aria-hidden="true"></i> Log-in</a>
+                <a class="dropbtn btn-block" href="{{url('login')}}"> <i class="fa fa-sign-in" aria-hidden="true"></i> Log-in</a>
                 <ul></ul>
             </li>
         </ul>
