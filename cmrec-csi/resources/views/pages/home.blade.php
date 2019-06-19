@@ -1,4 +1,4 @@
-@extends('layouts.head')
+@extends('layouts.app')
 @section('content')
 <div class="container" style="margin-top:-15px;margin-bottom:-15px;">
     <marquee class="navbar">
