@@ -15,3 +15,4 @@ Route::get('/',"PagesController@index" );
 Route::get('/news',"EventsController@news");
 Route::get('/login',"PagesController@login");
 Auth::routes(['register'=>false]);
+Route::get('/event/{id}','EventsController@show');
