@@ -15,7 +15,8 @@ class CsiMembersController extends Controller
      */
     public function index()
     {
-        //
+        $members = CsiMembers::all();
+        return $members;
     }
 
     /**
