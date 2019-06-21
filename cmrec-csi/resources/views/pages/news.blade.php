@@ -25,7 +25,7 @@
                             <tr>
                                 <th class="text-center">S. No.</th>
                                 <th class="text-center">News Headline</th>
-                                <th class="text-center">News Date</th>
+                                <th class="text-center">Date</th>
                             </tr>
                             @if(count($all_news)>0)
                             @php $sno=1; @endphp
