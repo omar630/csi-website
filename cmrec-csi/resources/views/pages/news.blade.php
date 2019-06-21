@@ -17,10 +17,10 @@
                             class="table responsive table-hover">
                             <tr style="background:#002060 !important;">
                                 <td colspan=3 class="text-center">
-                                    <a href="######" class="list-group-item list-group-item-action active"
-                                        style="background:#002060 !important;border:#dc143c !important">
-                                        <h4 style="font-size:20px;"> LATEST NEWS</h4>
-                                    </a></td>
+                                    <p class="list-group-item list-group-item-action active"
+                                        style="background:#002060;!important;border:#dc143c !important">
+                                        <h4 style="font-size:20px;color:white;"> LATEST NEWS</h4>
+                                </p></td>
                             </tr>
                             <tr>
                                 <th class="text-center">S. No.</th>
