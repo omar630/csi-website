@@ -12,6 +12,6 @@
 */
 
 Route::get('/',"PagesController@index" );
-Route::get('/news',"PagesController@news");
+Route::get('/news',"EventsController@news");
 Route::get('/login',"PagesController@login");
 Auth::routes(['register'=>false]);
