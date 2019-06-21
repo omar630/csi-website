@@ -32,10 +32,12 @@
                             @foreach ($all_news as $news)
                             <tr>
                                 <td width="10%" class="text-center">{{$sno}}</td>
-                                <td width="65%" class="text-center"><a target=_blank href="#####">{{$news->title}}</a></td>
+                                <td width="65%" class="text-center"><a target=_blank href="/event/{{$news->id}}">{{$news->title}}</a></td>
                                 <td width="25%" style="text-align:right" class="text-center">{{$news->start_date}}</td>
                             </tr>
                             @endforeach
+                            @else
+                            <tr><th class="text-center" colspan="3">No Updates</th></tr>
                             @endif
                         </table>
                     </div>
