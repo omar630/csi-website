@@ -25,20 +25,20 @@
                             <tr>
                                 <th class="text-center">S. No.</th>
                                 <th class="text-center">News Headline</th>
-                                <th class="text-center">News Date</th>
+                                <th class="text-center">Date</th>
                             </tr>
-
+                            @if(count($all_news)>0)
+                            @php $sno=1; @endphp
+                            @foreach ($all_news as $news)
                             <tr>
-                                <td width="10%">1</td>
-                                <td width="65%"><a target=_blank href="#####">News 1</a></td>
-                                <td width="25%" style="text-align:right">XX-XXX-XXXX</td>
+                                <td width="10%" class="text-center">{{$sno}}</td>
+                                <td width="65%" class="text-center"><a target=_blank href="/event/{{$news->id}}">{{$news->title}}</a></td>
+                                <td width="25%" style="text-align:right" class="text-center">{{$news->start_date}}</td>
                             </tr>
-                            <tr>
-                                <td width="10%">2</td>
-                                <td width="65%"><a target=_blank href="#####">News 2</a></td>
-                                <td width="25%" style="text-align:right">XX-XXX-XXXX</td>
-                            </tr>
-
+                            @endforeach
+                            @else
+                            <tr><th class="text-center" colspan="3">No Updates</th></tr>
+                            @endif
                         </table>
                     </div>
 

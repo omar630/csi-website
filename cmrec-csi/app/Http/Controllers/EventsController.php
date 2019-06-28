@@ -18,6 +18,12 @@ class EventsController extends Controller
         //
     }
 
+    public function news()
+    {
+        $all_news = Events::where('status','1')->where('start_date','>',date('Y-m-d'))->get();
+        return view('pages.news')->with('all_news',$all_news);
+    }
+
     /**
      * Show the form for creating a new resource.
      *
