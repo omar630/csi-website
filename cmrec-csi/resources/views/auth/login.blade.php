@@ -1,16 +1,16 @@
 <!--Modal: Login with Avatar Form-->
 <div class="modal fade" id="modalLoginAvatar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-  aria-hidden="true">
+  aria-hidden="true" >
   <div class="modal-dialog cascading-modal modal-avatar modal-sm" role="document">
     <!--Content-->
-    <div class="modal-content">
+    <div class="modal-content" style="background-color:#f5f5f5;width:350px;">
 
       <!--Header-->
-      <div class="modal-header">
+      <div class="modal-header" >
         <img src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" alt="avatar" class="rounded-circle img-responsive">
       </div>
       <!--Body-->
-      <div class="modal-body text-center mb-1">
+      <div class="modal-body text-center mb-1" >
 
         <h5 class="mt-1 mb-2">Log In</h5>
 
