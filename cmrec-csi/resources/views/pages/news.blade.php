@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
-<section class="text-center;">
-    <div class="container">
+<section class="text-center;" style="padding-left:200px;">
+    <div class="container" >
         <div class="row">
             <div class="column">&nbsp;</div>
         </div>
@@ -12,15 +12,15 @@
             <div class="col-md-12">
                 <div class="list-group">
 
-                    <div class="container" align=center>
+                    <div class="container" style="align:center;">
                         <table style="border:1px solid #CCC;width:80%;margin-top:20px;" cellpadding=0 cellspacing=0
                             class="table responsive table-hover">
-                            <tr style="background:#002060 !important;">
+                            <tr style="background:gray !important;">
                                 <td colspan=3 class="text-center">
-                                    <p class="list-group-item list-group-item-action active"
-                                        style="background:#002060;!important;border:#dc143c !important">
-                                        <h4 style="font-size:20px;color:white;"> LATEST NEWS</h4>
-                                </p></td>
+                                    <a href="######" class="list-group-item list-group-item-action active"
+                                        style="background:gray !important;border:black !important">
+                                        <h4 style="font-size:20px;"> LATEST NEWS</h4>
+                                    </a></td>
                             </tr>
                             <tr>
                                 <th class="text-center">S. No.</th>

@@ -1,32 +1,36 @@
  <!--Navbar -->
- <nav class="mb-1 navbar-nav navbar-expand-lg navbar-dark default-color sticky-top"
-     style="background:#002060 !important;margin-top:0px;">
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
-         aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-     </button>
-     <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
-         <ul class="navbar-nav mr-auto">
-             <li class="nav-item active">
-                 <a class="nav-link" href="{{url('/')}}"><i class="fa fa-home"></i> Home
+ <!--Navbar-->
+ <nav class="navbar navbar-expand-lg navbar-dark black sticky-top "  >
+  <br>
+  <!-- Collapse button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="basicExampleNav">
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+                 <a class="nav-link" href="{{url('/')}}" style="margin:15px;"><i class="fa fa-home"></i> Home
                      <span class="sr-only"></span>
                  </a>
              </li>
              <li class="nav-item">
-                 <a class="nav-link" href="{{url('/news')}}"><i class="far fa-newspaper"></i> News <img
+                 <a class="nav-link" href="{{url('/news')}}"><i class="far fa-newspaper" style="margin:15px;"></i> News <img
                          src="{{url('assets\inc\images\new.gif')}}"></a>
              </li>
              <li class="nav-item">
-                 <a class="nav-link" href="{{url('/aboutus')}}"><i class="fa fa-globe" aria-hidden="true"></i> About us
+                 <a class="nav-link" href="{{url('/aboutus')}}"><i class="fa fa-globe" aria-hidden="true" style="margin:15px;"></i> About us
                  </a>
              </li>
              <li class="nav-item">
-                 <a class="nav-link" href="{{url('/members-exclusive')}}"><i class="fa fa-user" aria-hidden="true"></i>
+                 <a class="nav-link" href="{{url('/members-exclusive')}}"><i class="fa fa-user" aria-hidden="true" style="margin:15px;"></i>
                      Member's
                      Exclusive</a>
              </li>
              <li class="nav-item">
-                 <a class="nav-link" href="{{url('/posts')}}"><i class="fa fa-sticky-note-o" aria-hidden="true"></i>
+                 <a class="nav-link" href="{{url('/posts')}}"><i class="fa fa-archive" aria-hidden="true" style="margin:15px;"></i>
                      Posts</a>
              </li>
          </ul>
@@ -34,7 +38,7 @@
              <!-- Authentication Links -->
              @guest
              <li class="nav-item dropdown">
-                 <a id="showLogin" class="nav-link" data-toggle="modal" data-target="#modalLoginAvatar" href="{{ route('login') }}">{{ __('Login') }} <i
+                 <a id="showLogin" class="nav-link" data-toggle="modal" data-target="#modalLoginAvatar" href="{{ route('login') }}" style="margin:15px;">{{ __('Login') }} <i
                          class="fas fa-sign-in-alt"></i></a>
              </li>
             
@@ -63,6 +67,9 @@
              </li>
              @endguest
          </ul>
-     </div>
- </nav>
- <!--/.Navbar -->
+
+    </form>
+  </div>
+  <!-- Collapsible content -->
+</nav>
+<!--/.Navbar-->
