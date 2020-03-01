@@ -18,4 +18,19 @@ class PagesController extends Controller
      public function aboutus() {
          return view('pages.aboutus');
      }
+     public function exclusive() {
+         return view('pages.exclusive');
+     }
+     public function contact()  {
+         return view('pages.contact');
+     }
+     public function logged() {
+         return view('pages.logged');
+     }
+     public function loggednews() {
+         return view('pages.loggednews');
+     }
+     public function loggedevents() {
+         return view('Pages.loggedevents');
+     }
 }

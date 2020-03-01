@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<section style="padding: 10rem 0;background-color:#fff;">
+<section style="padding-top:10px;background-color:#fff;">
 <div class="container">
    <h1 class="heading">Meet The Team</h1>
    <div class="card-wrapper">
@@ -60,8 +60,8 @@
             <div class="card">
               <img src="{{url('assets\inc\images\bg.jpeg')}}" alt="card background" class="card-img">
               <img src="{{url('assets\inc\images\u2.jpg')}}" alt="profile image" class="profile-img">
-              <h1>sri Pratima</h1>
-              <p class="job-title">web Designer</p>
+              <h1>Sri Pratima</h1>
+              <p class="job-title">CSI COORDINATOR</p>
               <p class="about">
                 
                 </p> 

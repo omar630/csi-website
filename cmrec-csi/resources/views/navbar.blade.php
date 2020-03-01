@@ -22,16 +22,20 @@
              </li>
              <li class="nav-item">
                  <a class="nav-link" href="{{url('/aboutus')}}"><i class="fa fa-globe" aria-hidden="true" style="margin:15px;"></i> About us
-                 </a>
+                 </a>   
              </li>
              <li class="nav-item">
-                 <a class="nav-link" href="{{url('/members-exclusive')}}"><i class="fa fa-user" aria-hidden="true" style="margin:15px;"></i>
+                 <a class="nav-link" href="{{url('/exclusive')}}"><i class="fa fa-user" aria-hidden="true" style="margin:15px;"></i>
                      Member's
                      Exclusive</a>
              </li>
              <li class="nav-item">
                  <a class="nav-link" href="{{url('/posts')}}"><i class="fa fa-archive" aria-hidden="true" style="margin:15px;"></i>
-                     Posts</a>
+                     Events</a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link" href="{{url('/contact')}}"><i class="fa fa-address-card" aria-hidden="true" style="margin:15px;"></i>
+                     Contact</a>
              </li>
          </ul>
          <ul class="navbar-nav ml-auto">
